@@ -1,6 +1,6 @@
 const api = require('../utils/api.js')
 const _ = require('lodash')
-const ether = require('ethers')
+const ethers = require('ethers')
 const markets = require('../config/markets').markets
 // const parseNftTrader = require('./parseNftTrader.js')
 // const parseSaleToken = require('./parseSaleToken')
