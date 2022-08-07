@@ -119,7 +119,6 @@ const getEthUsdPrice = async (ethPrice) => {
     const result = await retry(
         async () => {
             const response = await axios.get(backupurl);
-            console.log(response)
             let ethusd;
             if('result' in response.data){
                 result = _.get(response, ['data', 'result']);
